@@ -1,0 +1,7 @@
+<p>{{quote.sender}} on  {{quote.date|dateCount}} </p>
+<!-- <button (click)= 'quoteComplete(true)'>Delete</button> -->
+<button (click)= 'upVote()'>like</button>
+<span>{{like}}</span>
+<button (click)= 'downVote()'>dislike</button>
+<span>{{dislike}}</span>
+<button (click)= 'deleteQuote(true)'>Delete Quote</button>

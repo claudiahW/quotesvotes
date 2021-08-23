@@ -1,0 +1,20 @@
+.row {
+    display: flex; text-align: justify;
+
+}
+.container {
+    background-color: burlywood;
+    
+}
+
+h3 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+button { text-align: right;
+    background-color:rgb(107, 168, 107);
+    color:white;
+    border-top-color: transparent;
+}
